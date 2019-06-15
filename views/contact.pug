@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  center
+    center
+      h2 Contact Me
+    input.form-control(type='text', name='name', placeholder='Enter Your Full Name')
+    br
+    br
+    input.form-control(type='email', name='email', placeholder='Enter Your Valid Email')
+    br
+    br
+    textarea.form-control(name='message', placeholder='Enter Your Message')
+    br
+    br
+    input.btn.btn-primary(type='submit')
+    include partials/footer.pug
+

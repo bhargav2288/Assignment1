@@ -1,0 +1,16 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand(href='/') Home
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbarNavDropdown.collapse.navbar-collapse
+    ul.navbar-nav
+      li.nav-item.active
+        a.nav-link(href='/about')
+          | About Me
+          span.sr-only (current)
+      li.nav-item
+        a.nav-link(href='/projects') Projects
+      li.nav-item
+        a.nav-link(href='/services') Services
+      li.nav-item
+        a.nav-link(href='/contact') Contact
