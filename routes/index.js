@@ -28,4 +28,8 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });
 
+router.get('/eduwork', function(req, res, next) {
+  res.render('eduwork', { title: 'Contact' });
+});
+
 module.exports = router;
